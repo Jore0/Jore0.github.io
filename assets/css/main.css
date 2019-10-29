@@ -2017,6 +2017,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
+			
 			font-weight: 400;
 		}
 
@@ -2035,6 +2036,32 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		.icons > li {
+			line-height: 1;
+			font-weight: 400;
+			font-size: 1.5em;
+
+		} 
+		.icons > li > span {
+			font-family: "Source Sans Pro";
+			font-size: 0.8em;
+			margin-left: 15px;
+      line-height: 1.5em;
+		}
+		.skills{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-evenly;
+		}
+		.skills > li{
+			width: 20%;
+			display: flex !important; 
+	
+			align-items: center;
+			margin: 5px;
+		}
+
 /* Image */
 
 	.image {
@@ -2311,7 +2338,13 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-
+			.icons > li> span{
+				display: none;
+	
+			}
+			.icons > li {
+				margin: 5px;
+			}
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
