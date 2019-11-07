@@ -40,12 +40,12 @@
         <header class="major">
           <h2>
             Hi! I am <span class="name">Jose Orea</span>
-            a Software Engineer from New York please take a look around.
+            a Software Engineer from New York. Please take a look around.
           </h2>
         </header>
         <p>
-					Jose Orea, born and raised in Brooklyn, New York City. I am a graduate from Brooklyn College where I specialized in Math
-					Education. For seven years, I taught at an all-girl school in which I infused my passion for mentoring and STEM. I then
+					I was born and raised in Brooklyn, New York City. There I graduated from Brooklyn College where I specialized in Math
+					Education. For seven years, I taught at an all-girls school in which I infused my passion for mentoring and STEM. I then
 					embarked on my journey of becoming a software engineer through joining App Academy.
         </p>
         <ul class="actions">
@@ -65,11 +65,27 @@
             <a href= "images/fulls/userShowPage.png" class="image fit thumb"
               ><img src="images/thumbs/audiohive.png" alt=""
 						/></a>
-            <h3><a href="https://audiohive-aa.herokuapp.com" target="_blank">AudioHive</a></h3>
+						<h3>
+							<a href="https://audiohive-aa.herokuapp.com" target="_blank">AudioHive</a>
+							|
+							<a href="https://github.com/Jore0/AudioHive" target="_blank">Github</a>
+						</h3>
             <p>
               Music app where users can listen and upload songs created by other
               users inspired by Soundclould.com
-            </p>
+						</p>
+						<ul>
+							<li>Leveraged HTML 5 Audio and Redux to make a slice of state for the player component, creating a music player with
+							persistent audio streaming while the user navigates through the app.</li>
+							<li>Structured the state of the Redux cycle and dynamically sync audio waveforms to play-pause toggle buttons on the music
+							player so users have better visual control of a song.</li>
+							<li>Optimized the Rails database by incorporating best practices of SQL and Active Record associations thus removing N+1
+							queries and increasing performance by 40% ensuring dynamic scalability.</li>
+							<li>Utilized the Rails back end and AWS S3 to encrypt mp3/image storage for data optimization, organization, and security.</li>
+							<li>Developed an interactive user experience with React components local state for song uploads using drag and drop.</li>
+							<li>Implemented a formula for the song display carousel movement to create smooth transitions while browsing different
+						songs.</li>
+						</ul>
             <br />
             <p>
               Stack | Rails, PostgreSQL, React, Redux, HTML5, SCSS, Webpack,
@@ -78,14 +94,29 @@
           </article>
 
           <article class="col-6 col-12-xsmall work-item">
-            <a href="images/fulls/02.jpg" class="image fit thumb"
-              ><img src="images/fulls/p5js.png" alt=""
-            /></a>
-            <h3>NBA Data Visulization Using D3.js</h3>
+            <a href="images/fulls/nbastats.png" class="image fit thumb"
+              ><img src="images/fulls/nbastats.png" alt=""
+						/></a>
+						
+						<h3>
+							<a href="http://joseorea.io/NBAStats/" target="_blank">NBA Data Visulization Using D3.js </a>
+							| 
+							<a href="https://github.com/Jore0/AudioHive" target="_blank">Github</a>
+						</h3>
             <p>
               Data visualization project that clearly and creatively displays an
               NBA player average stats.
-            </p>
+						</p>
+						<ul>
+							<li>Utilized NBA API to fetch a player’s average stats based on user input in player search field and selection of year
+							options, returning accurate up-to-date information as triggered by respective change events.</li>
+							<li>Parsed JSON data from API calls to optimize the structure of arguments passed into custom D3.js-based DOM manipulation
+							functions, rendering a bubble chart comprising dynamic bubble sizes reflective of the best NBA player stats.</li>
+							<li>Provided user with an intuitive and recognizable user interface, styled to complement the NBA brand in an easily
+							consumable fashion.</li>
+							<li>Optimized search field so that user selection is triggered when typing is finished resulting in only one API call
+							reducing the amount of data coming in.</li>
+						</ul>
             <br />
             <p>
               Stack | JavaScript, d3.js, NBA API, HTML, CSS
@@ -95,8 +126,8 @@
           <article class="col-6 col-12-xsmall work-item">
             <a href="images/fulls/ICM.png" class="image fit thumb"
               ><img src="images/thumbs/cs4all.png" alt=""
-						/></a>
-            <h3><a href="https://github.com/nycdoe-cs4all/icm">Introduction to Computational Media with p5.js - NYC CS4ALL</a></h3>
+						/></a> 
+            <h3><a href="https://github.com/nycdoe-cs4all/icm"  target="_blank" >Introduction to Computational Media with p5.js - NYC CS4ALL</a></h3>
             <p>
               Developed by the the CS4All Academics Team, the Introduction to
               Computational Media (ICM) is a yearlong (108 hours) course for
@@ -106,9 +137,9 @@
           </article>
 
         </div>
-        <ul class="actions">
+        <!-- <ul class="actions">
           <li><a href="#" class="button">Full Portfolio</a></li>
-        </ul>
+        </ul> -->
       </section>
 		<section id="four">
 			<h2>Skills</h2>
@@ -146,7 +177,7 @@
         </p>
         <div class="row">
           <div class="col-8 col-12-small">
-            <form method="post" action="#">
+            <form method="post" action="https://formspree.io/xdooojqa">
               <div class="row gtr-uniform gtr-50">
                 <div class="col-6 col-12-xsmall">
                   <input type="text" name="name" id="name" placeholder="Name" />
@@ -178,7 +209,7 @@
               <li>
                 <h3 class="icon solid fa-envelope">
                   <span class="label">Email</span>
-                </h3>
+                </h3>Email: 
                 <a href="mailto:ose.orea.15@gmail.com"
                   >jose.orea.15@gmail.com</a
                 >
@@ -188,358 +219,38 @@
         </div>
       </section>
 
-      <!-- Four -->
-      <!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-      -->
     </div>
 
     <!-- Footer -->
     <footer id="footer">
       <div class="inner">
         <ul class="icons">
-          <!-- <li>
-            <a href="#" class="icon brands fa-twitter"
-              ><span class="label">Twitter</span></a
+          <li>
+            <a href="https://angel.co/jose-orea" class="icon brands fa-angellist"
+              target="_blank" ><span class="label">AngelList</span></a
             >
-          </li> -->
+          </li>
           <li>
             <a href="https://github.com/Jore0" class="icon brands fa-github"
-              ><span class="label">Github</span></a
+              target="_blank" ><span class="label">Github</span></a
             >
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/jose-orea/"
-              class="icon brands fa-linkedin"
+              class="icon brands fa-linkedin" target="_blank"
               ><span class="label"></span
             ></a>
           </li>
           <li>
             <a
               href="mailto:jose.orea.15@gmail.com"
-              class="icon solid fa-envelope"
+              class="icon solid fa-envelope" target="_blank"
               ><span class="label">Email</span></a
             >
           </li>
         </ul>
-        <!-- <ul class="copyright">
-          <li>&copy; Untitled</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul> -->
+
       </div>
     </footer>
 

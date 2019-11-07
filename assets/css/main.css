@@ -3261,3 +3261,8 @@ input, select, textarea {
 .name{
 	    color:#277cc5;
 }
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
